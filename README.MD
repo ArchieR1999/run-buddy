@@ -17,3 +17,5 @@ https://archier1999.github.io/run-buddy/
 ## Contribution
 
 Made with ❤️ by Arseniy Vorobei 
+
+P.S. This is a test.
