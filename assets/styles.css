@@ -5,27 +5,30 @@
   }
   
 body {
-    color: #39a6b2;
-    font-family: Helvetica, Arial, sans-serif;
+  color: #39a6b2;
+  font-family: Helvetica, Arial, sans-serif;
 
-    }
-    header {
-        padding: 20px 35px;
-        background-color: #39a6b2;
-      }
+}
+header {
+  padding: 20px 35px;
+  background-color: #39a6b2;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
 header h1 {
     font-weight: bold; 
     font-size: 36px;
     color: #fce138;
     margin: 0; /*Makes the header more or less of a box. Refer to Obsidian for details.*/
-    display: inline;/* All a href elements will be inline with the main header */
+    /*display: inline; All a href elements will be inline with the main header */
 }
 header a {
     color: #fce138; /* Sets the color of all the a elements to yellow*/
     text-decoration: none; /* Will remove lines from the href element*/
   }
 header nav {
-    float: right; /* Will push the header nav towards the right and keep it there */
+    /*float: right;  Will push the header nav towards the right and keep it there */
     margin: 7px 0;
 }
 header nav ul li {
