@@ -76,6 +76,7 @@ footer div {
     background-position: center;
     display: flex;
     justify-content: center;
+    flex-direction: row-reverse;
     flex-wrap: wrap;
    
 }
@@ -130,11 +131,6 @@ footer div {
     border: none;
     padding: 10px 20px;
     font-size: 16px;
-}
-
-.intro {
-
-   
 }
 
 
@@ -218,9 +214,6 @@ footer div {
     line-height: 1.5;
     color: #024e76;
   }
-.steps span {
-    
-}  
 
 .trainers {
   width: 100%;
@@ -231,7 +224,7 @@ footer div {
 }
   .trainer {
     
-    margin: 0 auto 30px auto;
+    margin: 20px;
     background: #024e76;
     color: #fce138;
     flex: 1;
