@@ -78,6 +78,7 @@ footer div {
     justify-content: center;
     flex-direction: row-reverse;
     flex-wrap: wrap;
+    flex-direction: row-reverse;
    
 }
 
