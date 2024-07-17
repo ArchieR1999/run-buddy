@@ -77,6 +77,7 @@ footer div {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
+    flex-direction: row-reverse;
    
 }
 
@@ -231,7 +232,7 @@ footer div {
 }
   .trainer {
     
-    margin: 0 auto 30px auto;
+    margin: 20px;
     background: #024e76;
     color: #fce138;
     flex: 1;
