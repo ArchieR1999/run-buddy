@@ -64,23 +64,21 @@
         
             <p>
                 Have you worked out out with a trainer before?
-                <input type="radio" name="trainer-confirm" id="trainer-yes" /><!--Adds a circle to be clicked with no name-->
-                <label for="trainer-yes">Yes</label> <!-- Displays the cicle correctly with the text yes-->
-           
-                <input type="radio" name="trainer-confirm" id="trainer-no" />
-                <label for="trainer-no">No</label>
-
+                <span class="radio-wrapper">
+                    <input type="radio" name="trainer-confirm" id="trainer-yes" /><!--Adds a circle to be clicked with no name-->
+                    <label for="trainer-yes">Yes</label> <!-- Displays the cicle correctly with the text yes-->
+                </span>
+                <span class="radio-wrapper">
+                    <input type="radio" name="trainer-confirm" id="trainer-no" />
+                    <label for="trainer-no">No</label>
+                </span>
             </p>
-
-
             <p>
-
-                <label for="checkbox">
-                I acknowledge that I am at least 18 years of age.
-                </label>
-                <input type="checkbox" name="confirm-age" id="checkbox"/>
+                <span class="checkbox-wrapper">
+                    <input type="checkbox" name="confirm-age" id="checkbox"/>
+                    <label for="checkbox">I acknowledge that I am at least 18 years of age.</label>
+                </span>
             </p>
-
             <button type="submit">
                 Get Running!
             </button>
